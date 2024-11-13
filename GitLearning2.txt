@@ -59,6 +59,53 @@ branch 'master' set up to track 'origin/master'.
 15) git add gitLearning1.txt
 16) git commit -m "Updated gitLearning1.txt with basic commands"
 17) git push origin master
+(again I updated the learning2 file. add, commit, push it to GitHub)
+
+18)  git checkout -b new-branch
+Switched to a new branch 'new-branch'
+PS C:\Users\anith\OneDrive\Desktop\Splitmate\Sample> git branch
+  main
+  master
+* new-branch
+
+19) git merge main
+Already up to date.
+PS C:\Users\anith\OneDrive\Desktop\Splitmate\Sample> git branch
+  main
+  master
+* new-branch
+
+20) git log
+21)  git diff
+diff --git a/GitLearning2.txt b/GitLearning2.txt
+index 710bdef..61d833b 100644
+--- a/GitLearning2.txt
++++ b/GitLearning2.txt
+@@ -59,6 +59,24 @@ branch 'master' set up to track 'origin/master'.
+ 15) git add gitLearning1.txt
+ 16) git commit -m "Updated gitLearning1.txt with basic commands"
+ 17) git push origin master
++(again I updated the learning2 file. add, commit, push it to GitHub)
++
++18)  git checkout -b new-branch
++Switched to a new branch 'new-branch'
++PS C:\Users\anith\OneDrive\Desktop\Splitmate\Sample> git branch
++  main
++  master
++* new-branch
++
++19) git merge main
++Already up to date.
++PS C:\Users\anith\OneDrive\Desktop\Splitmate\Sample> git branch
++  main
++  master
++* new-branch
++
++20) git log
+
+22)git reset test.txt
+Unstaged changes after reset:
+M       GitLearning2.txt
 
 
 
