@@ -107,5 +107,21 @@ index 710bdef..61d833b 100644
 Unstaged changes after reset:
 M       GitLearning2.txt
 
+23) git reset --hard
+HEAD is now at a8922e0 Updated GitLearning2.txt with new changes from point18
+
+24) git stash
+Saved working directory and index state WIP on new-branch: a8922e0 Updated GitLearning2.txt with new changes from point18
+
+25) git stash pop
+On branch new-branch
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   GitLearning2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (f387b6315b132f63c5b615b5bd24a35127ce6b6a)
+
 
 
