@@ -1,0 +1,15 @@
+
+Working directory -> staging -> git local repository -> git remote repository
+
+untracked files -> tracked files 
+
+1) git- init -> initiate empty git repo
+2) git status
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GitLearning2.txt
+        gitLearning1.txt
+
+3) git add .
+
+untracked files to tracked files
