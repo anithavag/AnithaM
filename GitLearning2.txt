@@ -1,7 +1,10 @@
+git config --global user.name "anitha" 
+git config --global user.mail "anitha@gmail.com"
+
 
 Working directory -> staging -> git local repository -> git remote repository
 
-untracked files -> tracked files 
+untracked files -> tracked files -> commited file
 
 1) git- init -> initiate empty git repo
 2) git status
@@ -13,3 +16,40 @@ Untracked files:
 3) git add .
 
 untracked files to tracked files
+
+4) git commit -m "this is my first commit"
+5) git status
+-> send it to local repository (On branch master)
+6) git add filename -> git add test.txt
+
+7)git commit -m "This is second commit - test.txt file added"
+[master bd7fae1] This is second commit - test.txt file added
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+
+8) <go to GitHub, add new repository and get the url>
+ex: https://github.com/anithavag/AnithaM
+
+9) git remote add origin https://github.com/anithavag/AnithaM
+
+10) git push -u origin master
+
+info:
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 694 bytes | 694.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/anithavag/AnithaM
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+11)  git branch 
+* master
+
+12) 
+
+
