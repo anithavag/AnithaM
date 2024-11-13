@@ -50,6 +50,15 @@ branch 'master' set up to track 'origin/master'.
 11)  git branch 
 * master
 
-12) 
+12) git add GitLearning2.txt
+13) git commit -m "updated GitLearning2.txt with new changes"
+1 file changed, 42 insertions(+), 2 deletions(-)
+
+14) git push origin master
+
+15) git add gitLearning1.txt
+16) git commit -m "Updated gitLearning1.txt with basic commands"
+17) git push origin master
+
 
 
